@@ -20,3 +20,17 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Node modules if you have any dependencies
+node_modules/
+
+# Build or distribution directories
+dist/
+build/
+
+# Sensitive files, such as API keys or configuration files
+*.env
+secrets.json
+
+# Operating system files
+.DS_Store
+Thumbs.db

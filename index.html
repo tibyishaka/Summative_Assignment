@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secure Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Secure Password Generator</h1>
+
+    <!-- Three separate inputs for the words, one below the other -->
+    <label for="word1">Enter word 1:</label>
+    <input type="text" id="word1" placeholder="word1" />
+    <br />
+
+    <label for="word2">Enter word 2:</label>
+    <input type="text" id="word2" placeholder="word2" />
+    <br />
+
+    <label for="word3">Enter word 3:</label>
+    <input type="text" id="word3" placeholder="word3" />
+    <br />
+<!-- place to input symbols-->
+    <label for="symbols">Enter 7 symbols:</label>
+    <input type="text" id="symbols" placeholder="@#$%^&*" />
+    <br />
+<!-- place to input the five numbers-->
+    <label for="numbers">Enter 5 random numbers:</label>
+    <input type="text" id="numbers" placeholder="12345" />
+    <br />
+
+    <button id="generate">Generate Password</button>
+
+    <!-- Generated Password goes into this textarea -->
+    <p id="password"> 
+      Generated Password 
+      <br />
+      <textarea readonly rows="2" cols="50"></textarea>
+    </p>
+
+    <!-- Password Status goes into this textarea -->
+    <p id="status">
+      Password Status
+      <br />
+      <textarea readonly rows="2" cols="50"></textarea>
+    </p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body uses flex to center the container both vertically and horizontally */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container styling:
+     
+  */
+  .container {
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Input styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* button hovering */
+  button:hover {
+    background: #007bff;  
+  }
+  
+  /* Password and status areas */
+  #password,
+  #status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Textareas for display */
+  textarea {
+    width: 100%;
+    margin-top: 5px;
+    resize: none;
+  }
+  
