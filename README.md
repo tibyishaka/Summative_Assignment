@@ -13,6 +13,7 @@ A simple, browser-based application that generates a secure 12-character passwor
 - [APIs Used](#apis-used)
 - [Project Structure](#project-structure)
 - [License](#license)
+- [Credits](#credits)
 
 ## Features
 
@@ -82,7 +83,7 @@ The application then checks if the remainder of the hash is present in the respo
 - Documentation:
 For more details on the API and its usage, please refer to the [official documentation](https://haveibeenpwned.com/API/v3)
 
-## Credit 
+ 
 ## Credits
 
 - **Have I Been Pwned (HIBP) API:**  
