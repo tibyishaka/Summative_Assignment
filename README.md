@@ -36,7 +36,7 @@ A simple, browser-based application that generates a secure 12-character passwor
 ## Demo
 
 You can view a live demo by opening the `index.html` file in your web browser or deploying it on any static hosting service (e.g., GitHub Pages).
-
+![Demo](image/Screenshot%202025-03-24%20113316.png)
 ## Installation
 
 To run the application locally, follow these steps:
@@ -48,6 +48,7 @@ To run the application locally, follow these steps:
    cd secure-password-generator
 
 ## Usage 
+
 1. Enter Your Inputs:
 
 - Words: Enter three words (each in its own input field). These will contribute both lowercase and uppercase characters to the password.
