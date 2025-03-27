@@ -34,6 +34,7 @@ A simple, browser-based application that generates a secure 12-character passwor
   The application is responsive and works across different device sizes.
 
 ## Demo
+You may also see the ![Demostration video](https://youtu.be/vVCT40M9JA0)
 
 You can view a live demo by opening the `index.html` file in your web browser or deploying it on any static hosting service (e.g., GitHub Pages).
 ![Demo](image/Screenshot%202025-03-24%20113316.png)
